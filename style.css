@@ -1,0 +1,179 @@
+body {
+    margin: 0%;
+    height: 100vh;
+}
+
+.nav-item {
+    margin-left: 10px;
+    margin-right: 10px;
+}
+
+.pc {
+    position: relative;
+    left: 5px;
+    top: 5px;
+    width: 200px;
+    height: 150px;
+}
+
+.yo {
+    margin-left: 10px;
+}
+
+.posicionar {
+    margin-left: auto;
+}
+
+.item1 {
+    background-color: #5EC465;
+}
+
+.inicio {
+    position:absolute;
+    top: 80px;
+    left: 55px;
+    padding-top: 20px;
+    margin-left: 10px;
+    background-color: transparent;
+    font-size: 2rem;
+}
+
+.columna1 {
+    justify-content: center;
+    text-align: center;
+    margin-top: 10px;
+    padding-bottom: 53px;
+}
+
+.bienvenida2 {
+    font-family: 'Cedarville Cursive', cursive;
+}
+
+.iconoProgramador {
+    width: 350px;
+    height: 400px;
+}
+
+.animacion{
+        animation-name: animacionP;
+        animation-duration: 2000ms;
+        animation-timing-function: linear;
+        animation-iteration-count: infinite;
+    }
+
+@keyframes animacionP {
+    0% {
+        transform: translateY(0px);
+    };
+    25% {
+        transform: translateY(-50px);
+    }
+    50% {
+        transform: translateY(50px);
+    }
+    75% {
+        transform: translateY(25px);
+    }
+    100% {
+        transform: translateY(0px);
+    }
+}
+
+.bienvenida1 {
+    font-family: 'Cedarville Cursive', cursive;
+    margin-top: 150px;
+}
+
+.item2 {
+    background-color: #5EC470;
+}
+
+.sobreMi {
+    position:absolute;
+    top: 690px;
+    left: 30px;
+    padding-top: 20px;
+    margin-left: 10px;
+    background-color: transparent;
+    font-size: 2rem;
+}
+
+.columna2 {
+    justify-content: center;
+    text-align: center;
+    margin-top: 10px;
+}
+
+.tecnologias {
+    height: 250px;
+    width: 250px;
+    position: relative;
+    right: 40px;
+}
+
+.animacionDos {
+    animation-name: animacionT;
+    animation-duration: 7000ms;
+    animation-timing-function: linear;
+    animation-iteration-count: infinite;
+}
+
+@keyframes animacionT {
+    0% {
+        transform: rotate(360deg);
+    }
+}
+
+.hobbies {
+    list-style-type: circle;
+}
+
+.tenis {
+    height: 250px;
+    width: 250px;
+    padding: 0;
+    position: relative;
+    right: 50px;
+    bottom: 10px;
+}
+
+.columnas {
+    padding-top: 40px;
+    padding-bottom: 20px;
+}
+
+.footer {
+    margin: 0;
+    height: 120px;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+}
+
+.icono {
+    width: 20px;
+    height: 20px;
+    cursor: pointer;
+}
+
+p {
+    display: flex;
+    flex-direction: row;
+}
+
+.contactarme {
+    justify-content:flex-start;
+    position: relative;
+    margin-left: 10px;
+}
+
+.footerDos {
+    align-items: center;
+    justify-content: center;
+}
+
+.row {
+    align-items: center;
+    justify-content: center;
+}
