@@ -8,9 +8,17 @@ body {
     margin-right: 10px;
 }
 
-.pc {
+.pc1 {
     position: relative;
     left: 5px;
+    top: 5px;
+    width: 200px;
+    height: 150px;
+}
+
+.pc2 {
+    position: relative;
+    left: 10px;
     top: 5px;
     width: 200px;
     height: 150px;
@@ -26,16 +34,6 @@ body {
 
 .item1 {
     background-color: #5EC465;
-}
-
-.inicio {
-    position:absolute;
-    top: 80px;
-    left: 55px;
-    padding-top: 20px;
-    margin-left: 10px;
-    background-color: transparent;
-    font-size: 2rem;
 }
 
 .columna1 {
