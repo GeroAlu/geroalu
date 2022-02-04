@@ -34,6 +34,7 @@ body {
 
 .item1 {
     background-color: #5EC465;
+    height: 100vh;
 }
 
 .columna1 {
@@ -48,8 +49,10 @@ body {
 }
 
 .iconoProgramador {
-    width: 250px;
-    height: 300px;
+    width: 350px;
+    height: 400px;
+    position: relative;
+    left: 100px;
 }
 
 .animacion{
@@ -79,20 +82,24 @@ body {
 
 .bienvenida1 {
     font-family: 'Cedarville Cursive', cursive;
-    margin-top: 150px;
+    margin-top: 200px;
 }
 
 .item2 {
     background-color: #5EC470;
+    height: 100vh;
 }
 
 .columna2 {
+    position: relative;
+    top: 200px;
     justify-content: center;
     text-align: center;
     margin-top: 10px;
 }
 
 .tecnologias {
+    justify-content: center;
     height: 150px;
     width: 150px;
     position: relative;
@@ -133,7 +140,7 @@ body {
 
 .footer {
     margin: 0;
-    height: 120px;
+    height: 80px;
     display: flex;
     flex-direction: row;
     justify-content: center;
@@ -141,6 +148,9 @@ body {
 }
 
 .icono {
+    position: relative;
+    bottom: 5px;
+    left: 60px;
     width: 20px;
     height: 20px;
     cursor: pointer;
